@@ -1,5 +1,6 @@
 "use client";
 
+import Demo from "@/components/Demo/Demo";
 import FilterBar from "@/components/FilterBar/FilterBar";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <FilterBar />
       <VideoList />
+      <Demo />
     </main>
   );
 }
