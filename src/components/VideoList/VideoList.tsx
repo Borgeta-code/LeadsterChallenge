@@ -1,13 +1,6 @@
+import { video } from "@/utils/videoInterface";
 import VideoCard from "../VideoCard/VideoCard";
 import { Container } from "./styles";
-
-export interface video {
-  id: number;
-  thumbnail: string;
-  url: string;
-  title: string;
-  description: string;
-}
 
 export default function VideoList() {
   const res = require("../../utils/videos.json");

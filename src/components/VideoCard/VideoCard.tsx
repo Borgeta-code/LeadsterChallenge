@@ -1,5 +1,5 @@
 import play from "../../../public/assets/playIcon.svg";
-import { video } from "../VideoList/VideoList";
+import { video } from "../../utils/videoInterface";
 import {
   Container,
   PlayIcon,
