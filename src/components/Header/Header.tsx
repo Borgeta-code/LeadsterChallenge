@@ -5,7 +5,7 @@ import { Container } from "./styles";
 export default function Header() {
   return (
     <Container>
-      <Image src={logo} alt="Leadster logo" />
+      <Image src={logo} alt="Leadster logo" width={150} />
     </Container>
   );
 }
