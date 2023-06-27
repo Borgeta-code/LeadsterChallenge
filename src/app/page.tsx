@@ -1,5 +1,6 @@
 "use client";
 
+import FilterBar from "@/components/FilterBar/FilterBar";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import styles from "./page.module.css";
@@ -9,6 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <Header />
       <Hero />
+      <FilterBar />
     </main>
   );
 }
