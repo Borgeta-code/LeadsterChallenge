@@ -1,5 +1,3 @@
-import Image from "next/image";
-import hero from "../../../public/assets/asset-header.png";
 import {
   Asset,
   Badge,
@@ -21,9 +19,7 @@ export default function Hero() {
         <SloganTextSm>Menos Conversinha,</SloganTextSm>
         <SloganTextLg>
           Mais Conversão
-          <Asset>
-            <Image src={hero} alt="" width={35} />
-          </Asset>
+          <Asset src="/assets/asset-header.png" />
         </SloganTextLg>
       </SloganContainer>
 
