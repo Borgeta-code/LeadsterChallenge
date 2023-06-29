@@ -5,9 +5,14 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 30px;
+  padding: 30px 0px;
   gap: 30px;
   background-color: #f0f8ff;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    padding: 50px 0;
+  }
 `;
 
 export const ContainerLeft = styled.div`
@@ -15,6 +20,14 @@ export const ContainerLeft = styled.div`
   justify-content: center;
   align-items: center;
   width: 450px;
+
+  @media (max-width: 480px) {
+    width: 268px;
+  }
+
+  @media (min-width: 480px) and (max-width: 860px) {
+    width: 248px;
+  }
 `;
 
 export const Comparative = styled.img`
@@ -24,18 +37,32 @@ export const Comparative = styled.img`
 export const ContainerRight = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 480px) {
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Label = styled.span`
   color: #1c3c50;
   font-size: 25px;
   font-weight: 500;
+
+  @media (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 
 export const LabelBold = styled.span`
   font-weight: 800;
   color: #1c3c50;
   font-size: 25px;
+
+  @media (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 
 export const Subtitle = styled.span`
@@ -105,6 +132,10 @@ export const LabelSm = styled.span`
   font-size: 10px;
   font-weight: 700;
   color: #1c3c50;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
 `;
 
 export const VerticalDivider = styled.div`

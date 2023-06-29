@@ -19,6 +19,10 @@ export const LogoContainer = styled.div`
 
 export const Logo = styled.img`
   width: 200px;
+
+  @media (max-width: 480px) {
+    width: 158px;
+  }
 `;
 
 export const LabelSm = styled.span`
@@ -26,6 +30,10 @@ export const LabelSm = styled.span`
   font-weight: 700;
   color: #1c3c50;
   opacity: 60%;
+
+  @media (max-width: 480px) {
+    font-size: 8px;
+  }
 `;
 
 export const FooterNavigation = styled.div`
@@ -35,12 +43,24 @@ export const FooterNavigation = styled.div`
   padding: 30px;
   gap: 80px;
   margin-bottom: 20px;
+
+  @media (max-width: 480px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px;
+    gap: 18px;
+  }
 `;
 
 export const Navigation = styled.div`
   display: flex;
   flex-direction: column;
   gap: 14px;
+
+  @media (max-width: 480px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Title = styled.span`
@@ -96,5 +116,12 @@ export const FooterBottom = styled.div`
   justify-content: center;
   align-items: center;
   gap: 120px;
-  padding: 25px;
+  padding: 25px 0px;
+
+  @media (max-width: 480px) {
+    @media (max-width: 480px) {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
 `;

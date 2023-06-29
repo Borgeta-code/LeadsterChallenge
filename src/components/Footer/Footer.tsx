@@ -34,8 +34,8 @@ export default function Footer() {
         <Navigation>
           <Title>Cases</Title>
           <Link>Geração de Leads B2B</Link>
-          <Link>Geração de Leads em Software</Link>
-          <Link>Geração de Leads em Imobiliária</Link>
+          <Link>Geração de Leads</Link>
+          <Link>Geração de Leads</Link>
           <Link>Cases de Sucesso</Link>
         </Navigation>
 
