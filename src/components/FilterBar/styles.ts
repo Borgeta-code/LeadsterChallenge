@@ -12,7 +12,7 @@ export const Container = styled.div`
   width: 80%;
   margin-top: 35px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     width: 96%;
   }
 `;
@@ -24,7 +24,7 @@ export const Filter = styled.div`
   width: 100%;
   padding: 15px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     overflow-x: scroll;
   }
 `;
@@ -59,7 +59,7 @@ export const Item = styled.div<ItemProps>`
     transform: scale(1);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     min-width: 124px;
     padding: 5px 8px;
   }

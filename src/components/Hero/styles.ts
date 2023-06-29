@@ -9,7 +9,7 @@ export const Container = styled.div`
   width: 100%;
   background-color: #f0f8ff;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     padding: 80px 0px;
   }
 `;
@@ -24,7 +24,7 @@ export const Badge = styled.span`
   border: 2px solid #0084ff;
   color: #0084ff;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     font-size: 14px;
   }
 `;
@@ -42,7 +42,7 @@ export const SloganTextSm = styled.span`
   font-weight: 500;
   color: #1c3c50;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     font-size: 28px;
   }
 `;
@@ -53,7 +53,7 @@ export const SloganTextLg = styled.span`
   color: #0084ff;
   position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     font-size: 44px;
   }
 `;
@@ -64,7 +64,7 @@ export const Asset = styled.img`
   right: -12px;
   top: 9px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     width: 26px;
     top: 4px;
     right: -10px;
@@ -76,7 +76,7 @@ export const Divider = styled.div`
   height: 1px;
   background-color: #c8d4dd;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     width: 90vw;
   }
 `;
@@ -87,7 +87,7 @@ export const Subtitle = styled.span`
   font-weight: 600;
   color: #1c3c50;
 
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     font-size: 12px;
     text-align: center;
     width: 90vw;

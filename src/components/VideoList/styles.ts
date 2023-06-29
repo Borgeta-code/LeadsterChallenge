@@ -13,4 +13,8 @@ export const Container = styled.div`
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
