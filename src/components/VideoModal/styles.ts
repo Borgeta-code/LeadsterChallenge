@@ -27,6 +27,10 @@ export const Modal = styled.div`
   z-index: 9999;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 480px) {
+    width: 96vw;
+  }
 `;
 
 export const ModalHeader = styled.div`
@@ -79,6 +83,10 @@ export const Description = styled.div`
   font-weight: 600;
   color: #1c3c50;
   width: 100%;
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
 `;
 
 export const Divider = styled.div`
@@ -143,4 +151,8 @@ export const DownloadType = styled.span`
   font-size: 12px;
   font-weight: 600;
   padding: 0 8px;
+
+  @media (max-width: 480px) {
+    font-size: 8px;
+  }
 `;

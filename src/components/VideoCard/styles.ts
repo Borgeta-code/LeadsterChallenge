@@ -61,5 +61,11 @@ export const Container = styled.div`
     &:active {
       transform: scale(1);
     }
+
+    @media (max-width: 480px) {
+      &:hover {
+        transform: scale(1);
+      }
+    }
   }
 `;

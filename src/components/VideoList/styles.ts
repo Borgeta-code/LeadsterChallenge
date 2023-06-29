@@ -7,4 +7,10 @@ export const Container = styled.div`
   width: 80%;
   gap: 25px;
   margin-top: 50px;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
 `;
