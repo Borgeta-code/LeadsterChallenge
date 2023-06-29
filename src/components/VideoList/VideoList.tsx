@@ -1,11 +1,11 @@
-import { video } from "@/utils/videoInterface";
+import { VideoType } from "@/utils/videoInterface";
 import Pagination from "../Pagination/Pagination";
 import VideoCard from "../VideoCard/VideoCard";
 import { Container } from "./styles";
 
 export default function VideoList() {
   const res = require("../../utils/videos.json");
-  const videos: video[] = res.videos;
+  const videos: VideoType[] = res.videos;
 
   return (
     <>

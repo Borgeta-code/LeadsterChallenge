@@ -1,6 +1,6 @@
 import { useState } from "react";
 import play from "../../../public/assets/playIcon.svg";
-import { video } from "../../utils/videoInterface";
+import { VideoType } from "../../utils/videoInterface";
 import VideoModal from "../VideoModal/VideoModal";
 import {
   Container,
@@ -10,7 +10,7 @@ import {
   Title,
 } from "./styles";
 
-export default function VideoCard(props: video) {
+export default function VideoCard(props: VideoType) {
   const [modalOpen, setModalOpen] = useState(false);
 
   const abrirModal = () => {
