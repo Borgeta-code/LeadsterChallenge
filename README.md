@@ -2,6 +2,8 @@
 
 O desafio proposto pela empresa Leadster consistiu na criação de uma página estática, apresentando um desafio relativamente fácil. A empresa Leadster é uma plataforma online que se dedica a captar leads para negócios de diversos segmentos.
 
+- [Deploy da aplicação](https://leadster-borgeta-code.vercel.app/)
+
 ## 🧱 Organização
 
 Para garantir a escalabilidade e a organização do projeto, adotei algumas decisões importantes. A estrutura do projeto é claramente organizada, com cada elemento sendo componentizado e tendo sua própria pasta dentro do diretório "components/".
