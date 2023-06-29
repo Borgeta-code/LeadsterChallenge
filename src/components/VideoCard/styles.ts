@@ -40,9 +40,11 @@ export const Container = styled.div`
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   color: #1c3c50;
+  transition: ease-in 0.1s;
 
   &:hover {
     color: #007eff;
+    transform: scale(1.1);
 
     ${Thumbnail} {
       opacity: 60%;
@@ -54,6 +56,10 @@ export const Container = styled.div`
 
     ${PlayIcon} {
       z-index: 10;
+    }
+
+    &:active {
+      transform: scale(1);
     }
   }
 `;

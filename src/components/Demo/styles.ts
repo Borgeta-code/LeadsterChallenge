@@ -74,6 +74,16 @@ export const ButtonDemo = styled.div`
   border-radius: 999px;
   background-color: #0084ff;
   color: #fff;
+  transition: ease-in 0.1s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:active {
+    transform: scale(1);
+    background-color: #0084ff90;
+  }
 `;
 
 export const Stamp = styled.img`

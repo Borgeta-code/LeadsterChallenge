@@ -36,10 +36,16 @@ export const Item = styled.div<ItemProps>`
   border: ${(props) => (props.isSelected ? "" : "1px solid #1c3c50")};
   color: ${(props) => (props.isSelected ? "#fff" : "#1c3c50")};
   background-color: ${(props) => (props.isSelected ? "#0084ff" : "")};
+  transition: ease-in 0.1s;
 
   &:hover {
     color: ${(props) => (props.isSelected ? "" : "#0084ff")};
     border: ${(props) => (props.isSelected ? "" : "1px solid #0084ff")};
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(1);
   }
 `;
 
