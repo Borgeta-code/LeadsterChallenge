@@ -11,6 +11,10 @@ export const Container = styled.div`
   align-items: center;
   width: 80%;
   margin-top: 35px;
+
+  @media (max-width: 768px) {
+    width: 96%;
+  }
 `;
 
 export const Filter = styled.div`
@@ -19,6 +23,10 @@ export const Filter = styled.div`
   align-items: center;
   width: 100%;
   padding: 15px;
+
+  @media (max-width: 768px) {
+    overflow-x: scroll;
+  }
 `;
 
 export const ItemsContainer = styled.div`
@@ -28,6 +36,9 @@ export const ItemsContainer = styled.div`
 `;
 
 export const Item = styled.div<ItemProps>`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   font-weight: 600;
   font-size: 12px;
@@ -47,6 +58,11 @@ export const Item = styled.div<ItemProps>`
   &:active {
     transform: scale(1);
   }
+
+  @media (max-width: 768px) {
+    min-width: 124px;
+    padding: 5px 8px;
+  }
 `;
 
 export const OrderBy = styled.div`
@@ -54,6 +70,10 @@ export const OrderBy = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const OrderByLabel = styled.label`
