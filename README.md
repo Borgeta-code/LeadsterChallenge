@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Leadster Challenge
 
-## Getting Started
+O desafio proposto pela empresa Leadster consistiu na criação de uma página estática, apresentando um desafio relativamente fácil. A empresa Leadster é uma plataforma online que se dedica a captar leads para negócios de diversos segmentos.
 
-First, run the development server:
+## 🧱 Organização
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Para garantir a escalabilidade e a organização do projeto, adotei algumas decisões importantes. A estrutura do projeto é claramente organizada, com cada elemento sendo componentizado e tendo sua própria pasta dentro do diretório "components/".
+
+Dentro de cada pasta, estão os arquivos de estilização específicos do componente, bem como o próprio componente em si. Após a criação de cada componente, realizei commits regulares, seguindo os padrões e normas do Git, para garantir um histórico claro e ordenado do projeto.
+
+Além disso, criei uma pasta chamada "Utils/" que contém interfaces em TypeScript, como VideoType e ModalType, que auxiliam na tipagem de dados. Também incluí um arquivo JSON para renderizar os vídeos na página, facilitando a manutenção e a atualização dos conteúdos exibidos.
+
+## 🚀 Começando
+
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+### 📋 Pré-requisitos
+
+Do que você precisa para instalar o software?
+
+```
+NPM - Gerenciador de pacotes
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔧 Instalação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para instalar é bem simples, apenas faça uma copia do repositório em sua máquina e execute o seguinte comando no terminal:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm install
+```
 
-## Learn More
+Após a instalação das dependências, execute:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+assim seu projeto estará pronto e rodando no endereço:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+http://localhost:300
+```
 
-## Deploy on Vercel
+## 🛠️ Construído com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Nextjs](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled-Components](https://styled-components.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ✒️ Autores
+
+- **Matheus Borges** - [Linkedin](https://www.linkedin.com/in/matheus-borges-4a7469239/)
+
+⌨️ com ❤️ por [BorgesCode](https://github.com/Borgeta-code) 😊
